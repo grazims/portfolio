@@ -1,0 +1,169 @@
+#body {
+  background-color: #ebfdfd;
+  background-image: url("images/vintage-speckles.png");
+}
+.main-container {
+  width: 90%;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 1rem;
+  align-items: center;
+}
+.logo {
+  font-family: "MuseoModerno", cursive;
+  font-size: 1rem;
+  color: #180561;
+}
+.logo:hover {
+  text-decoration: none;
+  color: #e79cc2;
+}
+.link {
+  font-family: "Overpass", sans-serif;
+  font-size: 0.8rem;
+  color: #180561;
+}
+.link:hover {
+  text-decoration: none;
+  color: #e79cc2;
+}
+#color {
+  color: #180561;
+}
+#color:hover {
+  color: #e79cc2;
+}
+.nav-bar {
+  display: inline-block;
+  margin-top: 3%;
+}
+.nav-bar ul {
+  display: flex;
+  text-align: center;
+}
+.nav-bar li {
+  margin-left: 1rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.text {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Overlock", cursive;
+  color: #fa26a0;
+}
+
+.title {
+  font-family: "Overpass", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: center;
+  color: #180561;
+}
+.card-title {
+  font-family: "Overpass", sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: #180561;
+}
+.icon {
+  padding-right: 10%;
+  padding-top: 5%;
+}
+.button {
+  display: flex;
+}
+.project-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+.proj-minor-container {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.card-styles {
+  margin: 3%;
+}
+.card-text {
+  font-family: "Overlock", cursive;
+  font-size: 0.8rem;
+  color: #180561;
+}
+
+.tecs {
+  font-family: "Overpass", sans-serif;
+  font-weight: 100;
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  color: #e79cc2;
+}
+
+.footer-site {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 1rem;
+}
+.network {
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.network li {
+  margin: 0.3rem;
+}
+.footer-name {
+  font-family: "MuseoModerno", cursive;
+  font-size: 0.7rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .logo {
+    font-size: 2rem;
+  }
+  .link {
+    font-size: 1rem;
+  }
+  .about {
+    width: 60%;
+  }
+  .text {
+    font-size: 1.3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .card-title {
+    font-size: 1.3rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .tecs {
+    font-size: 0.8rem;
+  }
+  .footer {
+    display: flex;
+    position: relative;
+    top: 10rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 40%;
+    font-size: 1rem;
+  }
+  .footer-name {
+    font-size: 0.8rem;
+  }
+}
