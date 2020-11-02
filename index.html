@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
     <title>Grazi</title>
     <link
@@ -236,6 +236,42 @@
                     </div>
                 </footer>
             </div>
-    <script type="text/javascript" src="/index.js"></script>
+
+
+            <script>
+                function winter() {
+    window.onclick = myFunction;
+function myFunction() {
+  document.getElementsByTagName("BODY")[0].style.backgroundColor = "#726A8F";
+  document.getElementById("main-color").style = "color: #fe8091";
+  document.getElementById("text-color").style = "color: #F1C3BB";
+    }
+}
+function summer() {
+    window.onclick = myFunction;
+    function myFunction() {
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "#FFF9A7";
+        document.getElementById("main-color").style = "color: #0468BF";
+        document.getElementById("text-color").style = "color: #032CA6";
+    }
+}
+function fall() {
+    window.onclick = myFunction;
+function myFunction() {
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = "#FF0080";
+    document.getElementById("main-color").style = "color: #93FF19";
+    document.getElementById("text-color").style = "color: #80FF00";
+    }
+}
+function spring() {
+    window.onclick = myFunction;
+function myFunction() {
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = "#FFFF55";
+    document.getElementById("main-color").style = "color: #8601AE";
+    document.getElementById("text-color").style = "color: #A400BF";
+    }
+}
+            </script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
